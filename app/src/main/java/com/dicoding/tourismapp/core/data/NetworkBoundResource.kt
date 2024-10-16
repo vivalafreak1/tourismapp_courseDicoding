@@ -1,16 +1,6 @@
 package com.dicoding.tourismapp.core.data
 
-import androidx.lifecycle.LiveData
-import androidx.lifecycle.MediatorLiveData
 import com.dicoding.tourismapp.core.data.source.remote.network.ApiResponse
-
-import com.dicoding.tourismapp.core.utils.AppExecutors
-import io.reactivex.rxjava3.android.schedulers.AndroidSchedulers
-import io.reactivex.rxjava3.core.BackpressureStrategy
-import io.reactivex.rxjava3.core.Flowable
-import io.reactivex.rxjava3.disposables.CompositeDisposable
-import io.reactivex.rxjava3.schedulers.Schedulers
-import io.reactivex.rxjava3.subjects.PublishSubject
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.emitAll
 import kotlinx.coroutines.flow.first
