@@ -22,7 +22,7 @@ adapterRxjava3 = "2.9.0"
 lifecycleReactivestreamsKtx = "2.8.4"
 kotlinxCoroutines = "1.8.1"
 lifecycle = "2.8.4"
-dagger = "2.52"
+dagger = "2.51"
 
 [libraries]
 androidx-core-ktx = { module = "androidx.core:core-ktx", version.ref = "coreKtx" }
