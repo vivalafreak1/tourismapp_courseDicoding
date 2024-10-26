@@ -5,16 +5,11 @@ import androidx.activity.viewModels
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.content.ContextCompat
 import androidx.core.content.IntentCompat.getParcelableExtra
-import androidx.lifecycle.ViewModelProvider
 import com.bumptech.glide.Glide
-import com.dicoding.tourismapp.MyApplication
 import com.dicoding.tourismapp.R
-import com.dicoding.tourismapp.core.data.source.local.entity.TourismEntity
 import com.dicoding.tourismapp.core.domain.model.Tourism
-import com.dicoding.tourismapp.core.ui.ViewModelFactory
 import com.dicoding.tourismapp.databinding.ActivityDetailTourismBinding
 import dagger.hilt.android.AndroidEntryPoint
-import javax.inject.Inject
 
 @AndroidEntryPoint
 class DetailTourismActivity : AppCompatActivity() {
